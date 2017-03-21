@@ -1,0 +1,23 @@
+{
+  "name": "hacker-news",
+  "version": "1.0.3",
+  "description": "Read Hacker News inside Franz! Why? Because fun!",
+  "main": "index.js",
+  "author": "Pieter Levels <hi@levels.io>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://news.ycombinator.com",
+    "serviceName": "Hacker News",
+    "message": "",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": true,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": true
+    },
+    "openDevTools": false
+  }
+}
